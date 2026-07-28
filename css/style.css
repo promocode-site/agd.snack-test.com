@@ -322,6 +322,18 @@ li { margin-bottom: 0.4rem; }
   font-size: 0.85rem;
   opacity: 0.9;
 }
+.coupon-card-image {
+  display: flex;
+  justify-content: center;
+  padding: 16px 16px 0;
+}
+.coupon-card-image img {
+  display: block;
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--agoda-border);
+}
 .coupon-card-body { padding: 20px; }
 .coupon-code-box {
   display: flex;
