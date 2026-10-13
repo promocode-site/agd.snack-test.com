@@ -160,6 +160,9 @@
   <!-- ===== 헤더 ===== -->
   <header class="snw-header">
     <div class="snw-in">
+      <nav class="snw-pages" aria-label="페이지 메뉴">
+        <ul><li><a href="./" aria-current="page">홈</a></li><li><a href="coupon/">아고다 쿠폰</a></li><li><a href="card-discount/">아고다 카드할인</a></li></ul>
+      </nav>
       <p class="snw-cap" aria-hidden="true"><span>AGODA</span><span>PROMO CODE</span><span>10월</span></p>
       <h1 class="snw-h1">아고다 할인코드</h1>
       <p class="snw-desc">지금 쓸 수 있는 아고다 할인코드(프로모션 코드) 11종과 카드사·간편결제 할인, 시간대별 아고다 쿠폰까지 한 페이지에 모았습니다. 사용방법과 안 될 때 해결법도 같이 확인하세요.</p>
@@ -760,6 +763,8 @@
     <a class="snp-cta" href="https://app.ac/VbMOtQl73" target="_blank" rel="nofollow sponsored noopener">아고다 쿠폰 받기</a>
   </div>
 
+  <p class="snp-more"><a class="snp-btn" href="coupon/">아고다 쿠폰 전체 보기</a></p>
+
 </section>
     </div>
     <div class="snw-band b-lilac" aria-hidden="true"><p data-l="사용방법"><b>03</b>사용방법</p></div>
@@ -1218,6 +1223,18 @@
           <ul><li><a href="#promo-code">아고다 할인코드 총정리</a></li><li><a href="#card-pay">아고다 카드·간편결제 할인코드</a></li><li><a href="#coupon">아고다 쿠폰</a></li><li><a href="#how-to-use">아고다 할인코드 사용방법</a></li><li><a href="#troubleshoot">아고다 할인코드 오류 해결</a></li><li><a href="#tips">아고다 할인코드 노하우·꿀팁</a></li><li><a href="#faq">아고다 할인코드 FAQ</a></li><li><a href="/blog/">할인 정보 블로그</a></li></ul>
         </div>
       </div>
+      <!--@FOOTER-LINKS-->
+      <div class="snw-f-links">
+        <div class="snw-f-group">
+          <p class="snw-f-title">카드사별 할인</p>
+          <ul><li><a href="shinhan-card/">신한카드</a></li><li><a href="kb-card/">KB국민카드</a></li><li><a href="hyundai-card/">현대카드</a></li><li><a href="samsung-card/">삼성카드</a></li><li><a href="hana-card/">하나카드</a></li><li><a href="woori-card/">우리카드</a></li><li><a href="lotte-card/">롯데카드</a></li><li><a href="nh-card/">NH농협카드</a></li><li><a href="mastercard-card/">마스터카드</a></li><li><a href="kakao-pay/">카카오페이</a></li><li><a href="naver-pay/">네이버페이</a></li><li><a href="toss-pay/">토스페이</a></li></ul>
+        </div>
+        <div class="snw-f-group">
+          <p class="snw-f-title">다른 할인코드</p>
+          <ul><li><a href="tripcom/">트립닷컴 할인코드</a></li><li><a href="klook/">클룩 할인코드</a></li><li><a href="myrealtrip/">마이리얼트립 할인코드</a></li><li><a href="hotelscom/">호텔스닷컴 할인코드</a></li><li><a href="kkday/">kkday 할인코드</a></li><li><a href="rakutentravel/">라쿠텐트래블 할인코드</a></li><li><a href="usimsa/">유심사 할인쿠폰</a></li><li><a href="cos/">COS 프로모션코드</a></li><li><a href="ssense/">ssense 할인코드</a></li><li><a href="nike/">나이키 프로모션코드</a></li><li><a href="netaporter/">네타포르테 할인코드</a></li><li><a href="lululemon/">룰루레몬 프로모션코드</a></li><li><a href="mytheresa/">마이테레사 할인코드</a></li><li><a href="cet/">세타이어 할인코드</a></li><li><a href="adidas/">아디다스 프로모션코드</a></li><li><a href="arket/">아르켓 할인코드</a></li><li><a href="alo/">알로 할인코드</a></li><li><a href="andotherstories/">앤아더스토리즈 할인코드</a></li><li><a href="yoox/">육스 할인코드</a></li><li><a href="casetify/">케이스티파이 할인코드</a></li><li><a href="farfetch/">파페치 할인코드</a></li><li><a href="nordvpn/">노드 vpn 쿠폰</a></li><li><a href="lenovo/">레노버 할인</a></li><li><a href="speak/">스픽 할인</a></li><li><a href="clubclio/">클럽클리오 할인</a></li></ul>
+        </div>
+      </div>
+      <!--@/FOOTER-LINKS-->
       <div class="snw-f-bottom">
         <p class="snw-f-copy">수집 기준일 <time datetime="2026-10-01">2026.10.01</time> · © 2026 아고다 할인코드</p>
         <a class="snw-top" href="#snw-top">맨 위로 ↑</a>
@@ -1297,6 +1314,21 @@ html{scroll-behavior:smooth}
 .snw-f-copy{font-size:12px;color:#8f887b}
 .snw-top{text-decoration:none !important;color:var(--ink) !important;background:var(--mint);font-size:12.5px;font-weight:900;border:2px solid #fff;padding:7px 12px;border-radius:8px}
 
+.snw-pages{margin-bottom:20px}
+.snw-pages ul{list-style:none;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 5px 6px 2px}
+.snw-pages ul::-webkit-scrollbar{display:none}
+.snw-pages a{display:block;white-space:nowrap;text-decoration:none !important;color:var(--ink) !important;font-size:13.5px;font-weight:900;padding:8px 14px;border:2px solid var(--ink);border-radius:10px;background:#fff;box-shadow:3px 3px 0 var(--ink)}
+.snw-pages a:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.snw-pages a[aria-current="page"]{background:var(--ink);color:var(--yel) !important;box-shadow:3px 3px 0 var(--org)}
+.snw-f-links{display:grid;grid-template-columns:1fr 2fr;gap:24px 30px;padding:24px 0;border-bottom:2px dashed #4a453d}
+.snw-f-group ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px 16px}
+.snw-f-group a{text-decoration:none !important;color:#d8d2c4 !important;font-size:13.5px}
+.snw-f-group a:hover{color:#fff !important}
+.snq-chat summary{cursor:pointer;list-style:none}
+.snq-chat summary::-webkit-details-marker{display:none}
+.snq-chat details .snq-a{margin:12px 0 8px auto;width:fit-content}
+.snc-code code,.snc-pick code{font:inherit;letter-spacing:inherit}
+
 @media (max-width:760px){
   .snw-h1{font-size:36px}
   .snw-kpis{grid-template-columns:1fr 1fr}
@@ -1305,7 +1337,7 @@ html{scroll-behavior:smooth}
   .snw-band{margin:44px -20px 22px}
   .snw-band p{font-size:18px;padding-left:24px}
   .snw-band b{font-size:18px}
-  .snw-f-top{grid-template-columns:1fr}
+  .snw-f-top,.snw-f-links{grid-template-columns:1fr}
 }
 @media (max-width:420px){
   .snw-h1{font-size:31px}
@@ -1492,6 +1524,8 @@ html{scroll-behavior:smooth}
 .snp-foot-txt b{display:block;font-size:17px;font-weight:900;margin-bottom:2px}
 .snp-cta{flex:0 0 auto;text-decoration:none !important;color:var(--ink) !important;background:var(--yel);border:2px solid var(--line);font-size:15px;font-weight:900;padding:13px 18px;border-radius:12px;box-shadow:3px 3px 0 var(--line);white-space:nowrap}
 .snp-cta:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--line)}
+.snp-more{margin-top:22px;text-align:center}
+.snp-more .snp-btn{display:inline-block}
 
 @media (max-width:760px){
   .snp-tickets,.snp-col3{grid-template-columns:1fr}
